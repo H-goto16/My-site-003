@@ -1,0 +1,11 @@
+// import base stylesheet 
+@import "CSS/base";
+// import typewriter
+@import "CSS/typewriter";
+@import "CSS/typewriter2";
+// import variables 
+@import  "CSS/variables";
+// import mobile stylesheet
+@media (max-width: 600px) {
+    @import "CSS/mobile";
+}                
